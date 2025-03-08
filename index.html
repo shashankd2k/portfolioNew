@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Portfolio Website HTML CSS</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.facebook.com/share/1Ut2VV54kd/"><i class="fab fa-facebook-f"></i></a>
+        <a href=" https://x.com/Shashan89866457?t=ueyS9OCuIMXEKb5DgBdMQA&s=08 "><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/shashi_._jr?igsh=bzRva2V1b2pkdDll"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Shashank </div>
+        <div class="text-three">Full Stack Developer</div>
+        <div class="text-four">From Chitardurga</div>
+      </div>
+      <div class="button">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/about.jpg" alt="" />
+        </div>
+        <div class="right">
+          <div class="topic">Developing Is My Passion</div>
+          <p>
+            A career in the field of Full Stack Development as an intern in a reputable organization 
+            to expand my learnings, knowledge and skills. Secure a responsible career opportunity
+            to fully utilize my training and skills, while making a significance contribution to the 
+            success of the company.
+          </p>
+          <div class="button">
+            <button onclick="downloadCV()">Download CV</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge</div>
+          <ol>
+            <li>Html and CSS -- styling, creating web pages</li>
+              <li>JavaScript</li>
+              <li>Python-basic of python and data structure with python</li>
+              <li>Java</li>
+              <li>Oracle</li>
+              <li>MySQL</li>
+              <li>React js</li>
+              <li>Spring boot</li>
+          </ol>
+          <div class="experience">
+            <div class="num">F</div>
+            <div class="exp">
+              resher <br/>
+              
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">HTML</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">JavScript</div>
+            <div class="per">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic">PHP</div>
+            <div class="per">60%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">Web Devlopment</div>
+          <p>full-stack projects with problem-solving, technology usage,
+             and results.Emphasize your ability to build complete web applications.
+             Use a clean, 
+             responsive design with project demos and links. 
+             </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="topic">Graphic Design</div>
+          <p>Minimalist grid-based layout with bold typography and 
+            a consistent color scheme. Interactive elements like hover 
+            effects, animations, and high-quality visuals for engagement. </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Digital Marketing</div>
+          <p>strategy with social media, analytics, YouTube, email & more.
+             Learn to confidently implement strategies across major online marketing</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <div class="topic">Icon Design</div>
+          <p>professional-quality icons for websites, applications, and brand projects with ease.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <div class="topic">Photography</div>
+          <p> captures your priceless moments on your special day in a creative way.
+             Our team of professional photographers, create the most beautiful 
+             memories of your special day.
+
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <div class="topic">Apps Devlopment</div>
+          <p>Application development, or app development,
+             is the process of planning, designing, creating, testing, and deploying an
+              application to perform various business operations. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Have Any Project?</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam
+          voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias
+          repellendus nobis eligendi.</p>
+        <div class="button">
+          <button>Let's Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Shashank</a> | &#169; 2025 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
